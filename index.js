@@ -3,7 +3,7 @@ const http = require('http');
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello from EC2!This update automated. Prototype is LIVE.');
+  res.end('Hello from EC2!This update automated. Prototype is LIVE. Check it now');
 });
 
 server.listen(3000, '0.0.0.0', () => {
